@@ -13,11 +13,10 @@ $(function() {
   $('.circle-container').click(function() {
     $(this)
       .css({ position:'absolute', left:0 })
-      .rotate({ count:2, duration:1.2,easing:'ease-in', animate:{ left:700 } })
+      .rotate({ count:2, duration:1.2,easing:'ease-in', animate:{ left:750 } })
       .fadeTo(100, 0.1)
       .fadeTo(400, 1)
-      .delay(100)
-      .rotate({ count:99999,duration:21, forceJS:false});
+      .delay(100);
   });
 
   // $('.circle-container').toggle(function() {
@@ -152,27 +151,27 @@ $.fn.rotate=function(options) {
 
 .circle-container {
     position: absolute;
-    width: 26em;
-    height: 26em;
+    width: 22em;
+    height: 22em;
     padding: 2em;
     /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
     border: solid 2px;
     border-radius: 50%;
-    margin: 3em auto 0;
+    margin: 2em auto 0;
 }
 .circle-container a {
     display: block;
     position: absolute;
     top: 50%; left: 50%;
-    width: 9em; height: 9em;
-    margin: -4.5em;
+    width: 8em; height: 8em;
+    margin: -4em;
 }
 .circle-container img { display: block; width: 100%; }
-.deg0 { transform: rotate(54deg) translate(10em) rotate(-54deg);} /* 12em = half the width of the wrapper */
-.deg45 { transform: rotate(126deg) translate(10em) rotate(-126deg); }
-.deg135 { transform: rotate(198deg) translate(10em) rotate(-198deg); }
-.deg225 { transform: rotate(270deg) translate(10em) rotate(-270deg); }
-.deg315 { transform: rotate(342deg) translate(10em) rotate(-342deg); }
+.deg0 { transform: rotate(54deg) translate(8em) rotate(-54deg);} /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(126deg) translate(8em) rotate(-126deg); }
+.deg135 { transform: rotate(198deg) translate(8em) rotate(-198deg); }
+.deg225 { transform: rotate(270deg) translate(8em) rotate(-270deg); }
+.deg315 { transform: rotate(342deg) translate(8em) rotate(-342deg); }
 
 .image:hover > .overlay {
     width:100%;
@@ -184,7 +183,7 @@ $.fn.rotate=function(options) {
 }
 
 body {
-    background: url("Spree2.jpg");
+    background: url("sassets/ssfinal.jpg");
     background-size: 95%;
     background-repeat: no-repeat;
     background-size:cover;
@@ -193,19 +192,17 @@ body {
 </style>
 </head>
 <body>
-	
-<div style="margin-top: 6%"class='circle-container' id="btn6">
-    <a href='#' class='center'><img src='layer1.png'></a>
 
-    <a href='#' class="deg0 portfolio-box"><img  src='layer1.png'> <div class="portfolio-box-caption">
-                            <div class="portfolio-box-caption-content">
-                                <h2>EVENTS</h2>
-                            </div>
-                        </div></a>
-    <a href='#' class='deg45'><img src='layer1.png'></a>
-    <a href='#' class='deg135'><img src='layer1.png'></a>
-    <a href='#' class='deg225'><img src='layer1.png'></a>
-    <a href='#' class='deg315'><img src='layer1.png'></a>
+
+	
+<div style="margin-top: 12%"class='circle-container' id="btn6">
+<!--     <a href='#' class='center'><img src='sassets/icircle.png'></a>
+ -->
+    <a href='#' class="deg0"><img src='sassets/6.png'></a>
+    <a href='#' class='deg45'><img src='sassets/7.png'></a>
+    <a href='#' class='deg135'><img src='sassets/8.png'></a>
+    <a href='#' class='deg225'><img src='sassets/9.png'></a>
+    <a href='#' class='deg315'><img src='sassets/10.png'></a>
 </div>
 
 					<!-- <a href="#" class="portfolio-box">
