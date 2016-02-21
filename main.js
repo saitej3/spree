@@ -2,6 +2,7 @@
     $(document).ready(function() {
       var margin = $('body').height()-200;
      $('.margin-down').css('margin-top',margin);
+     $('.margin-down-small').css('margin-top',margin+100);
       $('.image-class').hide()
       
       //$('.circle-container').click(function() {
