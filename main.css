@@ -1,44 +1,52 @@
+html,body{
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: url("sassets/ssfinal.jpg");
+  background-repeat: no-repeat;
+  background-size:cover;
+  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
+  
+}
+.circle-container {
+  position: absolute;
+  width: 26em;
+  height: 26em;
+  padding: 2em;
+  /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
+  border: solid 2px;
+  border-radius: 50%;
+  margin: 2em auto 0;
+}
+.circle-container a {
+  display: block;
+  position: absolute;
+  top: 50%; left: 50%;
+  width: 8em; height: 8em;
+  margin: -4em;
+}
+.circle-container img { display: block; width: 100%; }
+.deg0 { transform: rotate(54deg) translate(8em) rotate(-54deg);} /* 12em = half the width of the wrapper */
+.deg45 { transform: rotate(126deg) translate(8em) rotate(-126deg); }
+.deg135 { transform: rotate(198deg) translate(8em) rotate(-198deg); }
+.deg225 { transform: rotate(270deg) translate(8em) rotate(-270deg); }
+.deg315 { transform: rotate(342deg) translate(8em) rotate(-342deg); }
+.image:hover > .overlay {
+  width:100%;
+  height:100%;
+  position:absolute;
+  background-color:#000;
+  opacity:0.5;
+  border-radius:30px;
+}
+.vertical-center {
+  min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
+  min-height: 100vh; /* These two lines are counted as one :-)       */
+display: flex;
+align-items: center;
+}
 
-  .circle-container {
-    position: absolute;
-    width: 26em;
-    height: 26em;
-    padding: 2em;
-    /*2.8em = 2em*1.4 (2em = half the width of a link with img, 1.4 = sqrt(2))*/
-    border: solid 2px;
-    border-radius: 50%;
-    margin: 2em auto 0;
-  }
-  .circle-container a {
-    display: block;
-    position: absolute;
-    top: 50%; left: 50%;
-    width: 8em; height: 8em;
-    margin: -4em;
-  }
-  .circle-container img { display: block; width: 100%; }
-  .deg0 { transform: rotate(54deg) translate(8em) rotate(-54deg);} /* 12em = half the width of the wrapper */
-  .deg45 { transform: rotate(126deg) translate(8em) rotate(-126deg); }
-  .deg135 { transform: rotate(198deg) translate(8em) rotate(-198deg); }
-  .deg225 { transform: rotate(270deg) translate(8em) rotate(-270deg); }
-  .deg315 { transform: rotate(342deg) translate(8em) rotate(-342deg); }
-  .image:hover > .overlay {
-    width:100%;
-    height:100%;
-    position:absolute;
-    background-color:#000;
-    opacity:0.5;
-    border-radius:30px;
-  }
-  .vertical-center {
-    min-height: 100%;  /* Fallback for browsers do NOT support vh unit */
-    min-height: 100vh; /* These two lines are counted as one :-)       */
-    display: flex;
-    align-items: center;
-  }
-  body {
-    background: url("sassets/ssfinal.jpg");
-    background-size: 95%;
-    background-repeat: no-repeat;
-    background-size:cover;
-  }
+
+
+
