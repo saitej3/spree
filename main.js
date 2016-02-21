@@ -37,35 +37,35 @@
 
               
             $('.deg0 > img').mouseover(function(){
-              $(this).attr("src","sassets/10.png");
+              $(this).attr("src","sassets/102.png");
 
             })
             $('.deg0 > img').mouseout(function(){
               $(this).attr("src","sassets/1.png");
             })
             $('.deg45 > img').mouseover(function(){
-              $(this).attr("src","sassets/7.png");
+              $(this).attr("src","sassets/72.png");
 
             })
             $('.deg45 > img').mouseout(function(){
               $(this).attr("src","sassets/2.png");
             })
             $('.deg135 > img').mouseover(function(){
-              $(this).attr("src","sassets/8.png");
+              $(this).attr("src","sassets/82.png");
 
             })
             $('.deg135 > img').mouseout(function(){
               $(this).attr("src","sassets/3.png");
             })
             $('.deg225 > img').mouseover(function(){
-              $(this).attr("src","sassets/9.png");
+              $(this).attr("src","sassets/92.png");
 
             })
             $('.deg225 > img').mouseout(function(){
               $(this).attr("src","sassets/4.png");
             })
             $('.deg315 > img').mouseover(function(){
-              $(this).attr("src","sassets/6.png");
+              $(this).attr("src","sassets/62.png");
 
             })
             $('.deg315 > img').mouseout(function(){
