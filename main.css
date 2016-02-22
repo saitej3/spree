@@ -66,13 +66,9 @@ align-items: center;
 }
 .social{
 position: absolute;
-<<<<<<< HEAD
 bottom: 2%;
 right: 2%;
-=======
-bottom: 0;
-right: 0;
->>>>>>> c4373046e2431add06a5b6f686a0d8e6fc933e84
+
 }
 
 .follow-us-container
@@ -97,32 +93,20 @@ height: 32px;
 border: 2px solid #000;
 border-radius: 50%;
 color: #000;
-<<<<<<< HEAD
-margin: 1px;
-=======
 margin: 5px;
->>>>>>> c4373046e2431add06a5b6f686a0d8e6fc933e84
 }
 
 a.social-icon:hover, a.social-icon:active, a.social-icon:focus
 {
 text-decoration: none;
-<<<<<<< HEAD
 color: yellow;
 border-color: yellow  ;
-=======
-color: #434343;
-border-color: #434343;
->>>>>>> c4373046e2431add06a5b6f686a0d8e6fc933e84
 }
 
 .spons_landing{
   position: absolute;
-<<<<<<< HEAD
-  left: 9%;
-=======
+
   left: 1%;
->>>>>>> c4373046e2431add06a5b6f686a0d8e6fc933e84
   bottom: 5%;
 }
 
