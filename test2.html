@@ -14,13 +14,19 @@
 		  background-repeat: no-repeat;
 		  background-size:cover;
 		  font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
-  
-}
+}	
+		
+		.tab-pane
+		{
+			opacity: 0.4;
+    		filter: alpha(opacity=40);
+		}
+
 	</style>
 </head>
 <body>
 
-	<div class="container">
+	<div class="container-fluid" style="margin-top: 10%">
 		<div class="col-md-2">
 			<nav class="nav-sidebar">
 				<ul class="nav tabs">
@@ -30,25 +36,7 @@
 				</ul>
 			</nav>
 		</div>
-		<div class="col-md-4">
-			<div class="tab-content">
-				<div class="tab-pane active text-style tab1" >
-					<div class="card">
-						<img src="sassets/1.png">
-					</div>
-				</div>
-				<div class="tab-pane text-style tab2">
-					<div class="card">
-						<img src="sassets/2.png">
-					</div>
-				</div>
-				<div class="tab-pane text-style tab3" >
-					<div class="card">
-						<img src="sassets/3.png">
-					</div>
-				</div>
-			</div>
-		</div>
+		
 		<div class="col-md-6">
 			<div class="tab-content">
 				<div class="tab-pane active text-style tab1" >
@@ -61,8 +49,9 @@
 						</ul>
 
 						<!-- Tab panes -->
-						<div class="tab-content">
-							<div role="tabpanel" class="tab-pane active" id="home1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
+						<div class="tab-content" style="overflow-y: scroll; height:300px">
+							<div role="tabpanel" class="tab-pane active" id="home1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.
+							</div>
 							<div role="tabpanel" class="tab-pane" id="profile1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</div>
 							<div role="tabpanel" class="tab-pane" id="messages1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</div>
 							<div role="tabpanel" class="tab-pane" id="settings1">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passage..</div>
@@ -104,6 +93,20 @@
 							<div role="tabpanel" class="tab-pane" id="settings3"></div>
 						</div>
 					</div>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-md-4">
+			<div class="tab-content">
+				<div class="tab-pane active text-style tab1" >
+						<img src="sassets/1.png">
+				</div>
+				<div class="tab-pane text-style tab2">
+						<img src="sassets/2.png">
+				</div>
+				<div class="tab-pane text-style tab3" >
+						<img src="sassets/3.png">
 				</div>
 			</div>
 		</div>
