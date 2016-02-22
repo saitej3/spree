@@ -23,7 +23,6 @@ onReady(function () {
   $('.margin-logo').css('margin-top',margin_logo);
   $('.margin-down-small').css('margin-top',margin+100);
   $('.image-class').hide()
-
   $('.circle-container')
   .css({ position:'absolute', left:0 })
   .rotate({ count:2, duration:1.2,easing:'ease-in', animate:{ left: $(window).width()-500} })
