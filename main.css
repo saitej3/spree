@@ -110,21 +110,52 @@ border-color: #f7ec1f;
   bottom: 5%;
 }
 
-
+/* For naviagation bar starting from here */
 
 .navigation{
-	opacity:0.2;
-	height:20px;
+	height:0px;
+	border-width:0;
+	border-style:none;
+	background-color:white;
 }
 .navigation_ul, .nav_image{
-	height:95px;
-}
-
-.navigation > li:hover{
 	opacity:0.7;
+	outline:none;
 }
 
+.nav-tabs {
+    border-bottom: 0px solid #ddd !important;
+}
 
+.nav_image{
+	
+	width:80%;
+	height:80%;
+}
+
+.backimage{
+	
+	background-image: url("sassets/headbg.png");
+	background-repeat:no-repeat;
+	background-size:cover;
+}
+
+.navigation_ul{
+	outline:none;
+	border-style:none;
+	border-width:0;
+	
+}
+.navigation_ul > li{
+	width:14%;
+}
+.navigation_ul > a:hover{
+	text-decoration:none;
+	opacity:0.7;
+	outline:none;
+}
+
+/* navigationbar css ends here
 
 
 
