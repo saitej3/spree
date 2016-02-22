@@ -1,8 +1,4 @@
 
-Editing:  
-/home/springspree/public_html/spree16/assets/spreelanding/main.css
- Encoding:    Re-open Use Code Editor     Close  Save Changes
-
 html,body{
   height: 100%;
   width: 100%;
@@ -30,6 +26,7 @@ body {
     background-repeat: no-repeat;
     background-position: center;
 }	
+
 .circle-container {
   position: absolute;
   width: 26em;

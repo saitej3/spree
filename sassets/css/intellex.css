@@ -1,0 +1,125 @@
+@font-face{
+	src:url("fonts/Lato-Regular.ttf");
+	font-family: "lato";
+}
+
+body{
+	background: #B82429;
+	overflow: hidden;
+}
+
+#container1{
+	position: relative;
+	width: 98vw;
+	height: 92vh;
+	background: url("images/intellex/bg.png");
+	background-position: left bottom;
+	background-size: cover;
+	top: 60px;
+}
+
+#momentum{
+	width: 14%;
+	height: auto;
+	margin-top: -10px;
+}
+
+#div_mo{
+	font-weight: bold;
+	font-family: "lato";
+	font-size: 1.2em;
+	position: absolute;
+	top: 0px;
+	left: 45px;
+}
+
+a{
+	color: black;
+}
+
+#title{
+	background-image: url('/static/css/images/intellex/intellecx-banner.png');
+    background-repeat: no-repeat;
+    width: 26%;
+    height: 51%;
+    /* background: white; */
+    position: absolute;
+    /* margin-left: -150px; */
+    left: 43%;
+    color: #226f27;
+    background-size: contain;
+    font-family: "lato";
+    text-align: center;
+    margin-top: -23px;
+}
+
+#content{
+	background: rgba(239, 163, 155, 0.56);
+	height: 450px;
+	width: 1000px;
+	position: absolute;
+	left: 56%;
+	margin-left: -500px;
+	/*margin-*/top: 90px;
+}
+
+
+
+#side{
+	position: absolute;
+	z-index: 2;
+	top: 190px;
+}
+
+.side{
+	background: url("images/intellex/ribbon.png") center;
+	background-size: 100%;
+	background-position: 50% 50%;
+	width: 300px;
+	height: 60px;
+	margin-left: -75px;
+	cursor: pointer;
+}
+
+.side_text{
+	font-size: 1.05em;
+	position: relative;
+	top: 17px;
+	left: 130px;
+	color: #B82429;
+	font-family: "lato";
+}
+
+#center{
+	position: absolute;
+	left: 50%;
+	margin-left: -80px;
+	width: 160px;
+	height: auto;
+}
+
+.content{
+	font-family: "lato";
+    position: relative;
+    top: 149px;
+    width: 89%;
+    left: 50%;
+    margin-left: -460px;
+    display: none;
+    font-size: 1.1em;
+}
+
+.show{
+	display: block;
+}
+
+.inside{
+	font-weight: bold;
+	margin:0 20px
+}
+
+.selected .side_text{
+	color: #333;
+	font-weight: 700;
+}
+
