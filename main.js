@@ -13,6 +13,8 @@
         .fadeTo(400, 1,function(){
           $('.image-class').fadeTo(400,1,function(){
 
+            
+          
             $('.deg0 > img')
               .css({ position:'relative'})
               .rotate({endDeg:-360,count:99999, duration:21,forceJS:true });
