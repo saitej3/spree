@@ -5,6 +5,7 @@ html,body{
 }
 body {
   background: url("sassets/ssfinal.jpg");
+  overflow:hidden;
   background-repeat: no-repeat;
   background-size:cover;
   font-family: 'Merriweather', 'Helvetica Neue', Arial, sans-serif;
@@ -66,8 +67,8 @@ align-items: center;
 }
 .social{
 position: absolute;
-bottom: 0;
-right: 0;
+bottom: 20px;
+right: 20px;
 }
 
 .follow-us-container
@@ -92,14 +93,14 @@ height: 32px;
 border: 2px solid #000;
 border-radius: 50%;
 color: #000;
-margin: 5px;
+margin: 2px;
 }
 
 a.social-icon:hover, a.social-icon:active, a.social-icon:focus
 {
 text-decoration: none;
-color: #434343;
-border-color: #434343;
+color: #f7ec1f;
+border-color: #f7ec1f;
 }
 
 .spons_landing{
