@@ -129,7 +129,7 @@ border-color: #f7ec1f;
 	background-color:white;
 }
 .navigation_ul, .nav_image{
-  vertical-align: middle;
+  vertical-align: left;
   display: inline-block;
 	outline:none;
 }
@@ -148,7 +148,7 @@ border-color: #f7ec1f;
 
 .backimage{
 	
-	background-image: url("sassets/headbg.png");
+	background-image: url("sassets/headbg2.png");
 	background-repeat:no-repeat;
 	background-size:cover;
 }
@@ -161,14 +161,15 @@ border-color: #f7ec1f;
 	
 }
 .navigation_ul > li{
-	width:9.5%;
+	width:8.85%;
   font-family: 'unisans';
+  list-style: none;
 
   
 }
 .inner-tab {
-  padding-top: 20px;
-  padding-right: 50px;
+  padding-top: 30px;
+  padding-right: 60px;
   text-align: center;
 
 
@@ -187,6 +188,7 @@ border-color: #f7ec1f;
   opacity: 1;
   border-width: 0;
   color: #fff000;
+ 
 
  }
 
@@ -195,7 +197,7 @@ border-color: #f7ec1f;
 
  #rota {
    
-    transform:rotate(-47deg);
+    transform:rotate(-45deg);
 }
 
 
