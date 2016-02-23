@@ -45,7 +45,7 @@ body {
 
 }
 .circle-background {
-    background: rgba(0, 0, 0, 0.35) ; 
+    background: rgba(0, 0, 0, 0.2) ; 
 }
 
 .circle-container a {
@@ -100,10 +100,10 @@ font-size: 16px;
 text-align: center;
 width: 32px;
 height: 32px;
-border: 2px solid #000;
+border: 2px solid #001;
 border-radius: 50%;
 color: #000;
-margin: 2px;
+margin: 2px; 
 }
 
 a.social-icon:hover, a.social-icon:active, a.social-icon:focus
