@@ -9,7 +9,6 @@ html,body{
   width: 100%;
 }
 body {
-  background: url("sassets/ssfinal.jpg");
   overflow:hidden;
   background-repeat: no-repeat;
   background-size:cover;
